@@ -1,4 +1,10 @@
-# keras-vggface [![Build Status](https://travis-ci.org/rcmalli/keras-vggface.svg?branch=master)](https://travis-ci.org/rcmalli/keras-vggface) [![PyPI Status](https://badge.fury.io/py/keras-vggface.svg)](https://badge.fury.io/py/keras-vggface) [![PyPI Status](https://pepy.tech/badge/keras-vggface)](https://pepy.tech/project/keras-vggface)
+### Preface
+This repository provides a fix for keras_vggface to be used with tensorflow v2.16.  
+It is based on @YaleDHLab fix for tensorflow v2.5. 
+Please refer to the original repository for further information:  
+https://github.com/YaleDHLab/vggface?tab=readme-ov-file
+
+---
 
 Oxford VGGFace  Implementation using Keras Functional Framework v2+
 
@@ -18,8 +24,8 @@ pip install keras_vggface
 
 ### Library Versions
 
-- Keras v2.2.4
-- Tensorflow v1.14.0
+- Keras v3.2.1
+- Tensorflow v2.16.0
 - **Warning: Theano backend is not supported/tested for now.**
 
 ### Example Usage
@@ -177,4 +183,5 @@ If you find this project useful, please include reference link in your work. You
 - [How to Perform Face Recognition With VGGFace2 in Keras](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/)
 
 - [An extremely small FaceRecog project for extreme beginners, and a few thoughts on the future](https://kevincodeidea.wordpress.com/2020/01/14/an-extremely-small-facerecog-project-for-extreme-beginners-and-a-few-thoughts-on-future-part-ii-transfer-learning-and-keras/)
+
 
